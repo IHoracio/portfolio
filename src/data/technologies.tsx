@@ -4,7 +4,8 @@ import {
 import { 
   SiVite, SiTailwindcss, SiTypescript, SiSpringboot, 
   SiAngular, SiMysql, SiCloudflare, SiAmazons3, 
-  SiAmazonec2, SiAmazonwebservices, SiLinux, SiGnubash 
+  SiAmazonec2, SiAmazonwebservices, SiLinux, SiGnubash, 
+  SiJenkins
 } from "react-icons/si";
 
 // Mapa de iconos centralizado
@@ -33,6 +34,7 @@ export const ICONS_MAP: Record<string, JSX.Element> = {
   // DevOps & OS
   "Linux": <SiLinux className="text-gray-200" />,
   "Bash": <SiGnubash className="text-yellow-400" />,
+  "Jenkins": <SiJenkins className="text-blue-400" />,
 
   // Seguridad
   "SSL": <FaLock className="text-green-400" />,

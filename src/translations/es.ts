@@ -6,6 +6,10 @@ export default {
 
   // Proyectos
   projects: {
+    routemaster: {
+      title: "RouteMaster - TFG",
+      description: "Planificador de rutas inteligente que optimiza trayectos integrando gasolineras, meteorología y preferencias de vehículo. Desarrollado con arquitectura Full Stack y desplegado en AWS."
+    },
     portfolio: {
       title: "Portfolio Personal",
       description: "Mi portfolio web desarrollado con React y Tailwind CSS, mostrando mis proyectos y habilidades.",
@@ -13,6 +17,7 @@ export default {
   },
   buttons: {
     code: "Código",
-    demo: "Ver Demo"
+    demo: "Ver Demo",
+    clickProyect: "Click para ver más"
   }
 };

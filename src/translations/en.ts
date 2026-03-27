@@ -6,6 +6,10 @@ export default {
 
   // Projects
   projects: {
+    routemaster: {
+      title: "RouteMaster - Final Degree Project",
+      description: "Smart route planner that optimizes journeys by integrating gas stations, weather forecasts, and personalized vehicle preferences. Developed with a Full Stack architecture and deployed on AWS."
+    },
     portfolio: {
       title: "Personal Portfolio",
       description: "My web portfolio built with React and Tailwind CSS, showcasing my projects and skills.",
@@ -13,7 +17,8 @@ export default {
   },
   buttons: {
     code: "Code",
-    demo: "View Demo"
+    demo: "View Demo",
+    clickProyect: "Click to see more"
   }
 
 };

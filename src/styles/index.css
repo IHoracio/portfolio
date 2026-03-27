@@ -1,12 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import "tailwindcss";
+
 :root {
-    --font-Poppins: 'Poppins', 'sans-serif';
-  }
+  --font-Poppins: 'Poppins', 'sans-serif';
+  --scrollbar-bg: rgb(45, 75, 85);
+  --scrollbar-thumb: rgb(100, 160, 180);
+  --scrollbar-thumb-hover: rgb(130, 200, 220);
+}
 
 body {
   font-family: 'Poppins', sans-serif;
   color: azure;
   background-color: rgb(64, 104, 116);
-  overflow-x: hidden; 
+  overflow-x: hidden !important;
+  padding-right: var(--removed-body-scroll-bar-size);
+}
+
+/* --- Personalización del Scrollbar --- */
+
+/* (Chrome, Safari, Edge, Opera) */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar vertical */
+  height: 10px; /* Alto del scrollbar horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 10px;
+  border: 2px solid var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Estilos para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg);
 }

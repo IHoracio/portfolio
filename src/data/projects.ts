@@ -20,7 +20,6 @@ export const projectsData: Project[] = [
     id: "routemaster",
     technologies: ["Spring Boot", "Java", "Angular", "TypeScript", "CSS", "MySQL", "AWS", "Docker", "Cloudflare", "Bucket S3", "EC2", "CloudFront", "Linux", "Bash", "SSL", "Jenkins"],
     image: routeMasterImage,
-    githubUrl: "https://github.com/IHoracio/TFG-RouteMaster",
-    demoUrl: "https://tfg.mariomartinmorilla.es"
+    githubUrl: "https://github.com/IHoracio/TFG-RouteMaster"
   }
 ];

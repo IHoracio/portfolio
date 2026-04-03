@@ -19,6 +19,7 @@ export default {
     code: "Code",
     demo: "View Demo",
     clickProyect: "Click to see more"
-  }
+  },
+  iconsLimit: "... & more"
 
 };

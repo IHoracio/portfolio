@@ -59,7 +59,7 @@ export default function Proyectos() {
                       {getTechIcon(tech)} {tech}
                     </span>
                   ))}
-                  {project.technologies.length > 6 && <span className="text-blue-400 text-xs mt-1">...y más</span>}
+                  {project.technologies.length > 6 && <span className="text-blue-400 text-xs mt-1">{t.iconsLimit}</span>}
                 </div>
               </div>
             </div>

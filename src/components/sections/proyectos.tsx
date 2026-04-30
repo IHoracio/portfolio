@@ -53,7 +53,7 @@ export default function Proyectos() {
                 </p>
 
                 {/* Tecnologías limitadas en altura sin scroll visible */}
-                <div className="flex flex-wrap gap-2 mb-2 h-20 overflow-hidden relative">
+                <div className="flex flex-wrap gap-2 mb-2 h-20 overflow-hidden relative max-w-xs md:max-w-sm lg:max-w-md">
                   {project.technologies.slice(0, 6).map((tech) => (
                     <span key={tech} className="flex items-center gap-1 bg-gray-700/50 px-2 py-1 rounded text-xs text-gray-300">
                       {getTechIcon(tech)} {tech}
